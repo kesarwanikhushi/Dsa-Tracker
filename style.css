@@ -1,0 +1,130 @@
+ body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #121212;
+      color: #e0e0e0;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: background 0.3s, color 0.3s;
+    }
+    body.light {
+      background: #f0f0f0;
+      color: #212121;
+    }
+    h1 {
+      color: #90caf9;
+    }
+    body.light h1 {
+      color: #1976d2;
+    }
+    .tracker {
+      background: #1e1e1e;
+      border-radius: 16px;
+      padding: 20px;
+      width: 90%;
+      max-width: 700px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+      transition: background 0.3s;
+    }
+    body.light .tracker {
+      background: #ffffff;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+    .topic {
+      margin-bottom: 15px;
+    }
+    .topic-header {
+      display: flex;
+      align-items: center;
+    }
+    .topic-header > input[type="checkbox"] {
+      margin-right: 10px;
+      transform: scale(1.2);
+    }
+    .description {
+      font-size: 13px;
+      color: #bdbdbd;
+      margin-left: 28px;
+      margin-bottom: 6px;
+    }
+    body.light .description {
+      color: #616161;
+    }
+    .subtopics {
+      margin-left: 28px;
+      list-style-type: none;
+      padding-left: 0;
+      color: #a5d6a7;
+      font-size: 13px;
+    }
+    body.light .subtopics {
+      color: #388e3c;
+    }
+    .subtopics li {
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+    }
+    .subtopics li input[type="checkbox"] {
+      margin-right: 10px;
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+    .progress-bar {
+      background: #333;
+      border-radius: 8px;
+      overflow: hidden;
+      margin: 20px 0;
+    }
+    body.light .progress-bar {
+      background: #ccc;
+    }
+    .progress {
+      height: 16px;
+      background: #66bb6a;
+      width: 0%;
+      transition: width 0.3s ease;
+    }
+    .reset-button {
+      background-color: #d32f2f;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+      margin-top: 10px;
+      transition: background 0.3s ease;
+    }
+    .reset-button:hover {
+      background-color: #b71c1c;
+    }
+    #difficultyFilter {
+      margin-bottom: 10px;
+      padding: 6px;
+      border-radius: 8px;
+      border: 1px solid #555;
+      background: #2e2e2e;
+      color: #e0e0e0;
+      font-size: 14px;
+    }
+    body.light #difficultyFilter {
+      background: #e0e0e0;
+      color: #212121;
+      border: 1px solid #aaa;
+    }
+    .theme-toggle {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    .theme-toggle span {
+      font-size: 24px;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+    .theme-toggle span:hover {
+      transform: scale(1.2);
+    }
