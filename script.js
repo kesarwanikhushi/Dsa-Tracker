@@ -15,6 +15,18 @@ const topics = [
     ]
   },
   {
+    name: "Platforms for Practice",
+    description: "Utilize platforms to practice and improve your skills.",
+    difficulty: "Beginner",
+    subtopics: [
+      "LeetCode",
+      "HackerRank",
+      "Codeforces",
+      "GeeksforGeeks",
+      "Edabit"
+    ]
+  },
+  {
     name: "Programming Fundamentals",
     description: "Understand the core concepts of programming.",
     difficulty: "Beginner",
@@ -25,18 +37,6 @@ const topics = [
       "Functions",
       "Object-Oriented Programming Basics",
       "Pseudo Code"
-    ]
-  },
-  {
-    name: "Platforms for Practice",
-    description: "Utilize platforms to practice and improve your skills.",
-    difficulty: "Beginner",
-    subtopics: [
-      "LeetCode",
-      "HackerRank",
-      "Codeforces",
-      "GeeksforGeeks",
-      "Edabit"
     ]
   },
   {
