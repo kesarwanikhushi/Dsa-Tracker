@@ -357,7 +357,7 @@ function applySavedTheme() {
 function updateThemeIcon() {
   const icon = document.getElementById("themeIcon");
   const isLight = document.body.classList.contains("light");
-  icon.textContent = isLight ? "🌞" : "🌙";
+  icon.textContent = isLight ? "🌙" : "🌞";
 }
 
 window.addEventListener("load", () => {
